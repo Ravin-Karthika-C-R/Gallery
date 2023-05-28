@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Mogra&display=swap');
+
+.block{
+    width: 300px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.658);
+    float: left;
+    border: 5px solid rgb(243, 240, 240);
+    border-radius: 10%;
+    margin-bottom: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+body {
+    background-image: url("./images/lib.jpg");
+    height: 100%;
+
+}
+
+img {
+    width: 60%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 0px;
+
+}
+
+header {
+    color: rgb(239, 82, 14);
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-bottom: 6px;
+    padding-top: 10px;
+}
+
+p {
+    color: azure;
+    font-size: smaller;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 4px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-family: serif;
+    font-size: 100px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color:rgb(254, 254, 254);
+}
+
+.block:hover {
+    background-color: rgb(146, 136, 136);
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+   }
+.main2{
+    display: flex;
+    justify-content: space-around;
+}
